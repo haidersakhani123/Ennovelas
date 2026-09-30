@@ -1,0 +1,43 @@
+{
+  "listing": {
+    "title": "Ennovelas: Series y Novelas",
+    "title_length": 27,
+    "short_description": "Mira series, novelas y películas en streaming con catálogo actualizado en HD.",
+    "short_description_length": 78,
+    "full_description": "Bienvenido a Ennovelas, tu aplicación de entretenimiento en streaming para disfrutar de un amplio catálogo de series, novelas completas y películas desde tu dispositivo Android.\n\nCaracterísticas principales:\n• Catálogo actualizado: Explora los últimos capítulos emitidos, series populares y estrenos destacados.\n• Películas y Series completas: Navega fácilmente por categorías temáticas y encuentra tus historias favoritas.\n• Reproductor integrado: Disfruta de una reproducción fluida con selector de calidad optimizado para conexiones móviles y Wi-Fi.\n• Favoritos y Guardado Local: Guarda tus novelas preferidas en tu lista personal con almacenamiento seguro en tu propio dispositivo mediante Room/SQLite.\n• Buscador rápido: Encuentra cualquier título, telenovela o capítulo con resultados al instante y sugerencias recientes.\n• Sección de Tendencias: Conoce los títulos más vistos del momento con un diseño moderno e interactivo.\n\nPrivacidad y Transparencia:\nEnnovelas respeta la privacidad de sus usuarios. La aplicación no exige registro de datos sensibles y utiliza almacenamiento local para tus preferencias. Incorpora publicidad mediante Google AdMob para financiar la gratuidad del servicio. Los enlaces y reproductores de video se indexan mediante la API pública de WordPress y proveedores de contenido de terceros.",
+    "full_description_length": 1391
+  },
+  "capability_inventory": [
+    {
+      "capability": "Streaming de episodios y novelas en reproductor integrado",
+      "evidence": "app/src/main/java/com/example/ui/screens/WatchScreen.kt:WatchScreen"
+    },
+    {
+      "capability": "Catálogo categorizado de series, novelas y películas",
+      "evidence": "app/src/main/java/com/example/ui/screens/AllCategoriesScreen.kt:AllCategoriesScreen"
+    },
+    {
+      "capability": "Almacenamiento local de favoritos e interacciones",
+      "evidence": "app/src/main/java/com/example/data/local/AppDatabase.kt:AppDatabase"
+    },
+    {
+      "capability": "Buscador de títulos y episodios en tiempo real",
+      "evidence": "app/src/main/java/com/example/ui/screens/SearchScreen.kt:SearchScreen"
+    },
+    {
+      "capability": "Publicidad mediante banners, intersticiales y recompensados AdMob",
+      "evidence": "app/src/main/java/com/example/ui/components/AdComponents.kt:AdMobBannerAd"
+    }
+  ],
+  "disclosures_applied": [
+    {
+      "category": "Publicidad y Anuncios",
+      "disclosure_text": "La aplicación utiliza identificadores de publicidad anónimos de Google AdMob conforme a las directrices de Google Play."
+    },
+    {
+      "category": "Contenido de Terceros",
+      "disclosure_text": "El contenido audiovisual es provisto e indexado a través de APIs públicas y reproductores embebidos de terceros."
+    }
+  ],
+  "omitted_for_lack_of_evidence": []
+}

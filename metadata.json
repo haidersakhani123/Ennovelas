@@ -1,0 +1,6 @@
+{
+  "name": "Ennovelas",
+  "description": "Series, novelas y películas online gratis en Ennovelas - Streaming y entretenimiento en HD.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
