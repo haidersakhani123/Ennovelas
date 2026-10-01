@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "495089104537",
+    "project_id": "ennovelas-9f655",
+    "storage_bucket": "ennovelas-9f655.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495089104537:android:ddb26261c5db99c536ea08",
+        "android_client_info": {
+          "package_name": "com.aistudio.ennovelas.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHI7RdNr7SdtqCxse3iRwnmmjKwCj9Ozo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
